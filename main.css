@@ -159,3 +159,8 @@ background-color: #FFFCFC;
 .gallery__link:hover {
   cursor: zoom-in;
 }
+.sl-image img {
+  max-width: 90vw;  
+  max-height: 90vh; 
+  object-fit: contain;
+}
