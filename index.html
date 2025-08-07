@@ -5,28 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BauDzheka</title>
     <link rel="stylesheet" href="./main.css">
+    <link href="https://cdn.jsdelivr.net/npm/simplelightbox@2.14.1/dist/simple-lightbox.min.css" rel="stylesheet" />І
+<script src="https://cdn.jsdelivr.net/npm/simplelightbox@2.14.1/dist/simple-lightbox.min.js"></script>
+
 </head>
 <body>
     <header>
-<div>BauDzheka</div>
-<nav>
-    <ul>
-        <li><a href="#">Щось</a></li>
-        <li><a href="#">Щось</a></li>
-        <li><a href="#">Щось</a></li>
-        <li><a href="#">Щось</a></li>
+<div class="logo"></div>
+<nav class="nav">
+    <ul class="nav_list">
+        <li  class="nav_list-item"><a href="#"  class="nav_list-link"></a></li>
+        <li  class="nav_list-item"><a href="#"  class="nav_list-link"></a></li>
+        <li  class="nav_list-item"><a href="#"  class="nav_list-link"></a></li>
+        <li  class="nav_list-item"><a href="#"  class="nav_list-link"></a></li>
     </ul>
 </nav>
     </header>
-    <div>
-        <div class="hero">
-        <h1>Головний текс</h1>
-        <p>тут буде якийсь текст</p>
-        <p>тут теж</p>
-        <p>и тут</p>
-        <button>nezávazně se zeptat</button>
+    <div class="hero">
+        <div class="container hero_container">
+        <h1 class="hero_title"></h1>
+        <p class="hero_desc"></p>
+        <p class="hero_desc2"></p>
+        <p class="hero_desc3"></p>
+        <button class="hero_btn">nezávazně se zeptat</button>
         </div>
-        Сайт в розробці...
+        
     </div>
     <div class="container">
      <ul>
@@ -46,18 +49,9 @@
 </ul>
     </div>
     <div class="container">
-<h2>Galery</h2>
-<ul>
-    <li><img src="./img/galery.jpg" alt=""></li>
-    <li><img src="./img/galery.jpg" alt=""></li>
-    <li><img src="./img/galery.jpg" alt=""></li>
-    <li><img src="./img/galery.jpg" alt=""></li>
-    <li><img src="./img/galery.jpg" alt=""></li>
-    <li><img src="./img/galery.jpg" alt=""></li>
-    <li><img src="./img/galery.jpg" alt=""></li>
-    <li><img src="./img/galery.jpg" alt=""></li>
-    <li><img src="./img/galery.jpg" alt=""></li>
-</ul>
+<h2>Gallery</h2>
+<div class="gallery"></div>
+
     </div>
     <div class="container">
         <h2>About me</h2>
@@ -99,5 +93,8 @@
     <li><a href=""></a></li>
 </ul>
     </footer>
+ <script src="./index.js" type="module"></script>
+ <script src="https://cdn.jsdelivr.net/npm/simplelightbox@2.14.1/dist/simple-lightbox.min.js"></script>
+
 </body>
 </html>
