@@ -159,8 +159,20 @@ background-color: #FFFCFC;
 .gallery__link:hover {
   cursor: zoom-in;
 }
-.sl-image img {
-  max-width: 90vw;  
-  max-height: 90vh; 
-  object-fit: contain;
+
+
+.sl-caption {
+  font-size: 14px;
+  padding: 8px 10px;
+  background: rgba(0, 0, 0, 0.6); /* темніший фон */
+  color: #fff;
+  border-radius: 4px;
+
+  margin: 10px auto 0;
+}
+@media (max-width: 768px) {
+  .sl-caption {
+    font-size: 12px;
+    padding: 6px 8px;
+  }
 }
