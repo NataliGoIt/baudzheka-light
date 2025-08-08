@@ -135,6 +135,7 @@ background-color: #FFFCFC;
   width: 100%;
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+
 }
 
 .gallery__image:hover {
@@ -159,17 +160,24 @@ background-color: #FFFCFC;
 .gallery__link:hover {
   cursor: zoom-in;
 }
-
-
+.sl-image{
+  max-width: 90vw;  /* максимум 90% ширини вікна */
+  max-height: 80vh; /* максимум 80% висоти вікна */
+  height: auto;
+  width: auto;
+  object-fit: contain; /* щоб не обрізалося */
+}
+/* =========================описние картинки======================================= */
 .sl-caption {
+  max-width: 90vw;
+  height: auto;
   font-size: 14px;
   padding: 8px 10px;
-  background: rgba(0, 0, 0, 0.6); /* темніший фон */
+  background: rgba(0, 0, 0, 0.6); 
   color: #fff;
-  border-radius: 4px;
-
+  border-radius: 4px; 
   margin: 10px auto 0;
-}
+} 
 @media (max-width: 768px) {
   .sl-caption {
     font-size: 12px;
