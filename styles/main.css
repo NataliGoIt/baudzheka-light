@@ -23,6 +23,11 @@ button{
     list-style: none;
     border: none;
 }
+@media (min-width: 1300px) {
+    .hero{
+        max-width: 1700px;
+    }
+}
 /* 
 @media (max-width: 1024px) {
 }
@@ -42,8 +47,13 @@ button{
     }
 }
 .header{
-    background-color: #99948E;
-    margin: 40px 0;
+    position: absolute;
+    top: 1;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: rgba(153, 148, 142, 0.301);
+    /* margin: 40px 0; */
 }
 .header_container{
     display: flex;
@@ -64,6 +74,7 @@ button{
 }
 
 .hero{
+    position: relative;
     background-image: url(../img/hero-img.png);
     max-width: 1440px;
     height: 682px;
@@ -74,14 +85,11 @@ button{
     
 }
 .hero_container{
-    max-width: 500px;
-    padding: 0 16px;
-     padding-top: 154px;
-     margin-left: auto;
+     padding-top: 232px;
 }
 .hero_title{
     display: block;
-    background-color: #99948E;
+    background-color: rgba(153, 148, 142, 0.404);
     width: 412px;
     font-size: 28px;
     padding: 16px 8px;
@@ -89,7 +97,7 @@ button{
 }
 .hero_description{
     display: block;
-    background-color: #ABA9A9;
+    background-color:  rgba(153, 148, 142, 0.404);
     width: 462px;
     font-size: 24px;
     padding: 16px 8px;
@@ -100,7 +108,7 @@ button{
     font-size: 24px;
     padding: 16px 42px;
     color: #ffffff;
-    background-color: #5F0E0D;
+    background-color: rgba(95, 14, 13, 0.671);
 }
 
 
