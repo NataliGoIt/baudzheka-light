@@ -45,6 +45,12 @@ button{
         margin: 0 auto;
         padding: 0 16px;
     }
+    .hero{
+  
+    width: 1740px;
+    height: auto;
+    
+}
 }
 .header{
     position: absolute;
