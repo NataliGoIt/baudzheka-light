@@ -1,101 +1,138 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BauDzeka</title>
-    <link rel="stylesheet" href="./styles/main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StavJack</title>
+  <link rel="stylesheet" href="./styles/main.css">
 </head>
 <body>
-    <header class="header">
-        <div class="header_container ">
-        <a href="./index.html"><img src="./img/logo2.svg" alt="logo" class="header_logo"></a>
-        <nav class="header_nav">
-            <ul class="header_nav-list">
-                <li class="header_nav-item"><a href="#services" class="header_nav-link">Služby</a></li>
-                <li class="header_nav-item"><a href="#gallery" class="header_nav-link">Reference</a></li>
-                <li class="header_nav-item"><a href="#about" class="header_nav-link">O nás</a></li>
-                <li class="header_nav-item"><a href="#contacts" class="header_nav-link">Kontakt</a></li>
-            </ul>
-        </nav>
-        </div>
-    </header>
-  <section id="hero" class="hero">
-<div class="container hero_container">
-<h1 class="hero_title">Rekonstrukce koupelen na klíč</h2>
-<h2 class="hero_description">Vaše nová koupelna – místo relaxu a pohody, přesně podle vašich představ</h1>
-<button class="hero_btn">Nezávazně zeptat</button>
-</div>
-  </section>
-  <section id="services" class="services">
-    <div class="container">
-        <h2 class="services_title">SLUŽBY</h2>
-        <div>
-            <ul class="services_list">
-                <li class="services_list-item ">
-                    <img src="./img/photo_2025-07-07_20-11-10 1.png" alt="" class="services_list-img">
-                    </img>
-                    <p class="services_list-description b">Rekonstrukce <br> bytového jádra</p>
-                </li>
-                <li class="services_list-item">
-                    <img src="./img/photo_2025-07-29_22-45-19 1.png" alt="" class="services_list-img">
-                    </img>
-                    <p class="services_list-description">Rekonstrukce koupelny</p>
-                </li>
-                <li class="services_list-item">
-                    <img src="./img/photo_2025-07-29_22-45-24 1.png" alt="" class="services_list-img">
-                    </img>
-                    <p class="services_list-description">Rekonstrukce bytu</p>
-                </li>
-                <li class="services_list-item">
-                    <img src="./img/photo_2025-07-29_22-45-39 3.png" alt="" class="services_list-img">
-                    </img>
-                    <p class="services_list-description">Obkladačské práce</p>
-                </li>
-                <li class="services_list-item">
-                    <img src="./img/photo_2025-07-29_22-45-39 3.png" alt="" class="services_list-img">
-                    </img>
-                    <p class="services_list-description">Pokládka dlažby</p>
-                </li>
-                <li class="services_list-item">
-                    <img src="./img/photo_2025-07-07_20-11-10 1.png" alt="" class="services_list-img">
-                    </img>
-                    <p class="services_list-description">Sádrokartonářské práce </p>
-                </li>
-                <li class="services_list-item">
-                    <img src="./img/photo_2025-07-29_22-45-19 1.png" alt="" class="services_list-img">
-                    </img>
-                    <p class="services_list-description">Napínány strop</p>
-                </li>
-                <li class="services_list-item">
-                    <img src="./img/photo_2025-07-29_22-45-24 1.png" alt="" class="services_list-img">
-                    </img>
-                    <p class="services_list-description">Kuchyň na míru</p>
-                </li>
-            </ul>
-        </div>
-    </div>
-    
-  </section>
-  <section class="values">
-    <div class="container">
-    <h1 class="values_title">Naše hodnoty</h1>
-    <ul class="values_list">
-        <li class="values_item"><img src="./img/time.svg" alt="" class="values_img"></li>
-        <li class="values_item"><img src="./img/rtr.svg" alt="" class="values_img"></li>
-        <li class="values_item"><img src="./img/time.svg" alt="" class="values_img"></li>
-        <li class="values_item"><img src="./img/rtr.svg" alt="" class="values_img"></li>
-    </ul>
-    </div>
+
+<header class="header">
+  <button class="logo"><img src="./img/logo2.svg" alt="logo"></button>
+<nav>
+   <img src="./img/burger.svg" alt="menu">
+  <div class="burger">
+    <a href="#">Služby</a>
+    <a href="#">Reference</a>
+    <a href="#">O nás</a>
+    <a href="#">Kontakt</a>
+  
+  </div>
+</nav>
+</header>
+
+<section class="hero">
+  <div class="hero-content">
+    <h1>Rekonstrukce koupelen na klíč</h1>
+    <p>Vaše nová koupelna – místo relaxu a pohody, přesně podle vašich představ</p>
+    <button><a href="tel:+420 704 207 806">+420 704 207 806</a></button>
+    <button><a href="https://www.instagram.com/re_konstrukce_kv?igsh=OHZzdHQ2OXVhb3Q4">re_konstrukce_kv</a></button>
+  </div>
 </section>
-  <section class="reference">
-    <div class="container">
-    <h2 class="reference_title">Reference</h2>
-    </div>
-  </section>
-  <section id="gallery"></section>
-  <section id="about"></section>
-  <section id="contacts"></section>
-<footer></footer>
+
+<section class="services">
+  <h2>SLUŽBY</h2>
+  <ul class="grid">
+    <li class="card"><img src="./img/photo_2025-07-07_20-11-10 1.png" alt=""><span>Rekonstrukce bytového jádra</span></li>
+    <li class="card"><img src="./img/photo_2025-07-07_20-11-10 1.png" alt=""><span>Rekonstrukce koupelny</span></li>
+    <li class="card"><img src="./img/photo_2025-07-07_20-11-10 1.png" alt=""><span>Rekonstrukce bytu</span></li>
+    <li class="card"><img src="./img/photo_2025-07-07_20-11-10 1.png" alt=""><span>Obkladačské práce</span></li>
+    <li class="card"><img src="./img/photo_2025-07-07_20-11-10 1.png" alt=""><span>Pokládka dlažby</span></li>
+    <li class="card"><img src="./img/photo_2025-07-07_20-11-10 1.png" alt=""><span>Sádrokartonářské práce</span></li>
+    <li class="card"><img src="./img/photo_2025-07-07_20-11-10 1.png" alt=""><span>Napínaný strop</span></li>
+    <li class="card"><img src="./img/photo_2025-07-07_20-11-10 1.png" alt=""><span>Kuchyň na míru</span></li>
+  </ul>
+</section>
+
+<section class="values">
+  <h2>Naše hodnoty</h2>
+  <ul class="values-grid">
+    <li><img src="./img/" alt=""><span>Rychlost</span></li>
+    <li><img src="./img/" alt=""><span>Kvalita</span></li>
+    <li><img src="./img/" alt=""><span>Zkušenosti</span></li>
+    <li><img src="./img/" alt=""><span>Čistota</span></li>
+  </ul>
+</section>
+
+<section class="references">
+  <h2>Reference</h2>
+  <div class="slider">
+    <button class="prev">‹</button>
+    <img src="" alt="">
+    <button class="next">›</button>
+  </div>
+</section>
+
+<section class="about">
+  <h2>O nás</h2>
+  <div class="about-content">
+    <div class="img"></div>
+    <div class="text">
+      <h3>Yevhenii Tkachyshyn – Rekonstrukce na klíč</h3>
+      <p>Mám více než 15 let zkušeností s obnovou a rekonstrukcí objektů „na klíč“. Pracuji rychle, precizně a s maximální péčí o detaily.
+Pracuji tak, aby klient viděl výsledky a celý proces byl transparentní a pohodlný. Otevřená komunikace a spolehlivost jsou mé hlavní zásady. </p>
+    <p>Moje specializace:
+- kompletní rekonstrukce a opravy objektů
+- přesné naplnění přání klienta            
+- práce s různými materiály a technologiemi
+- dokončení projektů v dohodnutých termínech
+</p>
+</div>
+  </div>
+</section>
+<section class="instagram">
+<h3>INSTAGRAM</h2>
+  <h2>Více realizací na Instagramu</h2>
+  <p>Sledujte naše projekty, průběh rekonstrukcí a detaily realizací.</p>
+  <img src="./img/photo_2025-07-07_20-11-10 1.png" alt="">
+  <img src="./img/photo_2025-07-29_22-45-39 3.png" alt="">
+  <img src="./img/photo_2025-07-29_22-45-19 1.png" alt="">
+  <div>
+    <ul>
+<li>Reálné projekty</li>
+<li>Každodenní průběh</li>
+<li>Inspirace pro váš domov</li>
+    </ul>
+    <button><a href="https://www.instagram.com/re_konstrukce_kv?igsh=OHZzdHQ2OXVhb3Q4">SLEDUJTE NÁS NA INSTAGRAMU</a></button>
+  </div>
+</section>
+
+<section class="steps">
+  <h2>Postup spolupráce</h2>
+  <ul class="timeline">
+    <li><span>1</span><p>Setkání s klientem</p>
+    <p>Osobní konzultace, kde se seznámíme s vašimi představami a potřebami</p></li>
+    <li><span>2</span><p>Konzultace a návrh</p>
+    <p>Společně doladíme detaily, materiály a časový plán.</p></li>
+    <li><span>3</span><p>Cenová nabídka</p>
+    <p>Připravíme přehlednou kalkulaci a navrhneme optimální řešení.</p></li>
+    <li><span>4</span><p>Schválení projektu</p>
+    <p>Po odsouhlasení začínáme přípravné práce a objednávku materiálu.</p></li>
+    <li><span>5</span><p>Realizace</p>
+    <p>Provádíme práce pečlivě, v dohodnutém termínu a kvalitě.</p></li>
+    <li><span>6</span><p>Předání objektu</p>
+    <p>Kontrola, úklid a předání dokončeného projektu klientovi.</p></li>
+  </ul>
+</section>
+
+<footer class="footer">
+  <h2>Yevhenii Tkachyshyn – Rekonstrukce na klíč</h2>
+  <ul>
+  <li><a href="tel:+420 704 207 806"></a>Telefon: +420 704 207 806</li>
+  <li><a href="mailto:yevhenii15@icloud.com"></a>Email: yevhenii15@icloud.com</li>
+  <li>IČO: 22167617</li>
+  </ul>
+  <ul>
+    <li><a href="">wats</a></li>
+    <li><a href="">inst</a></li>
+    <li><a href="">telg</a></li>
+    <li><a href="">fejs</a></li>
+  </ul>
+
+  <p>@ 2026, StavJack</p>
+</footer>
+
+<script src="./js/main.js"></script>
 </body>
 </html>
